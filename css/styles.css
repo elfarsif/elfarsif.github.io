@@ -11018,6 +11018,21 @@ html {
   font-size: 1.5rem;
 }
 
+.portfolio .portfolio-item .project-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: var(--bs-secondary);
+}
+.portfolio .portfolio-item .project-item-caption:hover {
+  opacity: 0.5;
+}
+.portfolio .portfolio-item .project-item-caption .project-item-caption-content {
+  font-size: 1.5rem;
+}
+
 .portfolio-modal .btn-close {
   color: #1abc9c;
   font-size: 2rem;
